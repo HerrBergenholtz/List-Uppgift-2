@@ -31,7 +31,7 @@ namespace Uppgift_2
         static void Max(List<int> nummerLista)
         {
             nummerLista.Sort();
-            Console.WriteLine(nummerLista[nummerLista.Count()-1]);
+            Console.WriteLine(nummerLista[nummerLista.Count() - 1]);
         }
     }
 }
